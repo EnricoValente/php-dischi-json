@@ -11,32 +11,37 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-
-        <div id="app">
-            <div class="container-fluid text-center bg-dark">
-                <h1>
-                    Disks API
-                </h1>
-                <div class="row justify-content-center">
-                    <div class="col-3" v-for="singleDisk in disks">
-                        <div class="img-box">
-                            <img :src="singleDisk.image" alt="">
-                        </div>
-                        <div class="title text-white">
-                            <h4>
-                                {{singleDisk.title}}
-                            </h4>
-                        </div>
-                        <div class="artist text-white">
-                            <h6>
-                                {{singleDisk.artist}}
-                            </h6>
-                        </div>
-                        <div class="date text-white">
-                            {{singleDisk.date}}
+        <div class="disks-box bg-dark">
+            
+            <div id="app">
+                
+                <div class="container-fluid text-center">
+                    <h1>
+                        Disks API
+                    </h1>
+                    <div class="row justify-content-center">
+                        <div class="col-4" v-for="singleDisk in disks">
+                            <div class="img-box">
+                                <img :src="singleDisk.image" alt="">
+                            </div>
+                            <div class="title text-white">
+                                <h5>
+                                    {{singleDisk.title}}
+                                </h5>
+                            </div>
+                            <div class="artist text-white">
+                                <h6>
+                                    {{singleDisk.artist}}
+                                </h6>
+                            </div>
+                            <div class="date text-white">
+                                {{singleDisk.date}}
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+                    
             </div>
         </div>
         

@@ -23,6 +23,27 @@
             'date' => '1973'
         ],
 
+        [
+            'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwGAeCAPEsFxYoysCHgdy2RiVgjcy61Hl1qg&usqp=CAU',
+            'title' => 'Heart of Gold',
+            'artist' => 'Neil Young',
+            'date' => '1972'
+        ],
+
+        [
+            'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Z35A8zNw4c6a56RhID9fyatLDtDXU9lGRg&usqp=CAU',
+            'title' => 'One more car one more rider',
+            'artist' => 'Eric Clapton',
+            'date' => '2002'
+        ],
+
+        [
+            'image' => 'https://rockstargallery.net/wp-content/uploads/2020/03/image028.jpg',
+            'title' => 'Unchain my heart',
+            'artist' => 'Joe Cocker',
+            'date' => '1987'
+        ],
+
         
     ];
     

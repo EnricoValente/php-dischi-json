@@ -1,3 +1,17 @@
 h1 {
     color: white;
 }
+
+.img-box {
+    width: 150px;
+    margin: auto;
+}
+
+.img-box > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.disks-box {
+    height: 100vh;
+}
